@@ -39,7 +39,7 @@ function sendRequest(name, phone, address {street, house, entrance, floor, flat}
         order: {
             address: 'ул. ' + street + ', дом ' + house + ', ' + entrance + ' подъезд' + floor + ' этаж' + ', кв.' + flat,
             sum
-        } 
+        },
         goods: []
     }
 
