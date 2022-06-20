@@ -33,6 +33,7 @@
 //    }
 // }
 
+// - список товаров в заказе
 function sendRequest(name, phone, address, goods, sum) {
     let data = {
         client: {name, ' ', phone},
