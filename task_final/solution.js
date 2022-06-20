@@ -34,11 +34,12 @@
 // }
 
 // - список товаров в заказе
+
 function sendRequest(name, phone, address, goods, sum) {
     let data = {
-        client: {name, ' ', phone},
+        client: {name, phone},
         order: {
-            address: 'ул. ' + street + ', дом ' + house + ', ' + entrance + ' подъезд' + floor + ' этаж' + ', кв.' + flat,
+            address: street + house + entrance + floor + flat,
             sum
         },
         goods: []
